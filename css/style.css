@@ -34,6 +34,22 @@ body {
 	font-weight: 400;
 }
 
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	border: 0;
+	padding: 0;
+
+	white-space: nowrap;
+
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
 .redbg {
 	background-color: red;
 }
@@ -661,8 +677,116 @@ body {
 	color: #2F3035;
 	background: #F0F0F4; 
 	padding: 16px 43px;
+	width: 252px;
+}
+
+.product__more-link:hover{
+	font-weight: 600;
 }
 
 .banner {
 	margin-bottom: 80px;
+}
+
+.footer{
+	background: #F0F0F4;
+}
+.footer_bottom{
+	padding: 46px 0 22px;
+	display: flex;
+	justify-content: center;
+}
+
+.footer_bottom-link{
+	font-size: 10px;
+	line-height: 12px;
+	color: #48494D;
+	margin: 0 40px;
+}
+
+.footer__top {
+	padding-top: 43px;
+}
+
+.footer__top-inner{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__top-newsletter.footer__top-item{
+	width: 295px;
+	margin-right: 50px;
+}
+
+.footer__top-title {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+	color: #2F3035;
+}
+
+.footer-form{
+	margin-top: 34px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-form__input{
+	background-color: #fff;
+	border: none;
+	line-height: 17px;
+	font-size: 14px;
+	padding: 0 12px;
+
+}
+
+.footer-form__input::placeholder{
+	color: #C4C4C4;
+	font-size: 14px;
+}
+
+.footer-form__btn {
+	text-transform: uppercase;
+	padding: 10px 16px;
+	border: none;
+	background-color: #1C62CD;
+	color: #fff;
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 13px;
+	text-align: center;
+	letter-spacing: 0.12em;
+	font-family: 'SFProDisplay-Semibold' sans-serif;
+}
+
+.footer__top-item {
+	width: 200px;
+}
+
+.footer-list{
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.footer__top-social.footer__top-item{
+	width: 250px;
+}
+
+.social-list {
+	display: flex;
+	align-items: center;	
+	height: 100%;
+}
+
+.social-list__item {
+	opacity: .9;
+}
+
+.social-list__item:hover {
+	opacity: 1;
+}
+
+.social-list__item + .social-list__item{
+	margin-left: 30px;
 }
