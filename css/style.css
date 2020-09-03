@@ -902,3 +902,37 @@ button.catalog__filter-btngrid{
 .product-item__img{
 	max-width: 100%;
 }
+
+.pagintation{
+	width: 100%;
+	margin-top: 70px;
+}
+
+.pagintation-list{
+	display: flex;
+	justify-content: center;
+}
+
+.pagintation-list__item {
+	text-align: center;
+	padding: 6px 12px;
+	border: 2px solid transparent;
+	margin: 0 4px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	color: #C4C4C4;
+}
+
+.pagintation-list__item.active{
+	border: 2px solid #1C62CD;
+	color: #1C62CD;
+}
+
+.pagintation-list__item a{
+	display: block;
+
+}
+
+/* 3-p1 03-41 */
