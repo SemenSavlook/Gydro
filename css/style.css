@@ -886,7 +886,6 @@ button.catalog__filter-btngrid{
 .catalog__inner-aside{
 	min-width: 290px;
 	margin-right: 10px;
-	background-color: gray;
 }
 
 .catalog__inner-list{
@@ -932,7 +931,34 @@ button.catalog__filter-btngrid{
 
 .pagintation-list__item a{
 	display: block;
+}
+
+.aside-filter__tabs{
+	display: flex;
+	justify-content: space-between;
 
 }
 
-/* 3-p1 03-41 */
+.aside-filter__tab{
+	font-family: 'SFProDisplay', sans-serif;
+	font-weight: 200;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+	color: #C4C4C4;
+	width: 50%;
+}
+
+.aside-filter__tab.tab--active{
+	color: #2F3035;
+	font-weight: bold;
+}
+
+.aside-filter__tab.tab--active span{
+	display: inline-block;
+	border-bottom : 2px solid #1C62CD;
+	padding-bottom: 7px;
+}
+
+/* Закончил на 3-1 at 14-00 */
