@@ -953,6 +953,7 @@ button.catalog__filter-btngrid{
 .aside-filter__tab.tab--active{
 	color: #2F3035;
 	font-weight: bold;
+	font-family: 'SFProDisplay-Bold', sans-serif;
 }
 
 .aside-filter__tab.tab--active span{
@@ -961,4 +962,36 @@ button.catalog__filter-btngrid{
 	padding-bottom: 7px;
 }
 
-/* Закончил на 3-1 at 14-00 */
+.aside-filter__item-drop{
+	margin: 40px 0;
+}
+
+.aside-filter__item-title {
+	font-family: 'SFProDisplay-Semibold', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	padding-left: 26px;
+}
+
+.filter__item-drop{
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.filter__item-drop::before{
+	content: "";
+	background-image: url('/images/arrow-down.svg');
+	position: absolute;
+	left: 0;
+	bottom: 4px;
+	width: 12px;
+	height: 8px;
+
+}
+
+.filter__item-drop--active{
+
+}
+
+/* 3-1 46-20 */
