@@ -977,6 +977,8 @@ button.catalog__filter-btngrid{
 .filter__item-drop{
 	margin-bottom: 20px;
 	position: relative;
+	cursor: pointer;
+
 }
 
 .filter__item-drop::before{
@@ -984,14 +986,57 @@ button.catalog__filter-btngrid{
 	background-image: url('/images/arrow-down.svg');
 	position: absolute;
 	left: 0;
-	bottom: 4px;
+	bottom: 5px;
 	width: 12px;
 	height: 8px;
-
+	transform: rotate(0deg);
 }
 
-.filter__item-drop--active{
-
+.filter__item-drop--active::before{
+	transform: rotate(180deg);
 }
 
-/* 3-1 46-20 */
+.aside-filter__content{
+	display: flex;
+}
+
+.aside-filter__content-box{
+	width: 50%;
+}
+
+.aside-filter__content-label{
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #2F3035;
+	cursor: pointer;
+}
+
+.jq-checkbox, .jq-radio {
+	background: #fff;
+	width: 14px;
+	height: 14px;
+	border: 1px solid #C4C4C4;
+	border-radius: 1px;
+	box-shadow: none;
+	vertical-align: -1px;
+	margin: 0px 8px 0px 0px;
+}
+
+.jq-checkbox.checked , .jq-radio.checked{
+	border: none;
+	background: #1C62CD;
+	border: 1px solid #1C62CD;
+}
+
+.jq-checkbox.checked .jq-checkbox__div{
+	width: 8px;
+	height: 6px;
+	margin: 3px 0 0 2px;
+	border-bottom: none;
+	border-left: none;
+	transform: rotate(0);
+	background-image: url('../images/checked-icon.svg');
+}
+
+/* 4 part2 11:47 */
