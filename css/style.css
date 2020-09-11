@@ -975,7 +975,6 @@ button.catalog__filter-btngrid{
 }
 
 .filter__item-drop{
-	margin-bottom: 20px;
 	position: relative;
 	cursor: pointer;
 
@@ -998,6 +997,8 @@ button.catalog__filter-btngrid{
 
 .aside-filter__content{
 	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
 }
 
 .aside-filter__content-box{
@@ -1024,7 +1025,6 @@ button.catalog__filter-btngrid{
 }
 
 .jq-checkbox.checked , .jq-radio.checked{
-	border: none;
 	background: #1C62CD;
 	border: 1px solid #1C62CD;
 }
@@ -1039,4 +1039,42 @@ button.catalog__filter-btngrid{
 	background-image: url('../images/checked-icon.svg');
 }
 
-/* 4 part2 11:47 */
+.jq-radio.checked .jq-radio__div{
+	width: 0;
+	height: 0;
+	margin: 0;
+	border-radius: 0;
+	background: transparent;
+	box-shadow: none;
+}
+
+.aside-filter__content.aside-filter__content-radio{
+	flex-wrap: nowrap;
+}
+
+.irs--flat{
+	width: 100%;
+}
+/* 
+.irs-from, .irs-to{
+	display: none;
+} */
+
+.irs--flat .irs-from, .irs--flat .irs-to, .irs--flat .irs-single{
+	display: none;
+}
+
+.irs--flat .irs-min, .irs--flat .irs-max {
+	top: 60px;
+	padding: 0;
+	line-height: 17px;
+	text-decoration-line: underline;
+	font-family: 'Barlow', sans-serif;
+	font-size: 14px;
+	color: #2F3035;
+	text-shadow: none;
+	background-color: transparent;
+	border-radius: 4px;
+}
+
+/* p4-2 47-49 */
