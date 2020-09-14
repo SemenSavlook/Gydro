@@ -52,4 +52,15 @@ $(function(){
 		$('.product-item__wrapper').addClass('product-item__wrapper-list');
 	});
 
+	$(function () {
+ 
+		$(".rate-yo").rateYo({
+			ratedFill: "#1C62CD",
+			starWidth: "23px",
+			fullStar: true,
+			spacing: '7px',
+			normalFill: "#c4c4c4"
+		});
+	});
+
 });
