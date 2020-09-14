@@ -1,5 +1,5 @@
 @font-face {
-	font-family: 'SFProDisplay-Regular';
+	font-family: 'SFProDisplay-Regular', sans-serif;
 	src: url('../fonts/SFProDisplay-Regular.woff2') format('woff2');
 	src: url('../fonts/SFProDisplay-Regular.woff') format('woff');
 	font-weight: 400;

@@ -330,7 +330,7 @@ input[type="radio"].visually-hidden {
 .sale-item__footer span {
 	color: #1C62CD;
 	display: block;
-	font-weight: 700;
+	font-weight: bold;
 	font-family: 'Barlow', sans-serif;
 }
 
@@ -631,7 +631,7 @@ input[type="radio"].visually-hidden {
 }
 
 .product__title {
-	font-weight: 700;
+	font-weight: bold;
 	font-size: 25px;
 	line-height: 30px;
 	color: #2F3035;
