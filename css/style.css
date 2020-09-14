@@ -27,7 +27,7 @@ p {
 }
 
 body {
-	font-family: 'SFProDisplay', sans-serif;
+	font-family: 'SF Pro Display', sans-serif;
 	color: #2F3035;
 	font-size: 20px;
 	line-height: 24px;
@@ -69,7 +69,7 @@ input[type="radio"].visually-hidden {
 	justify-content: space-between;
 	align-items: center;
 	min-height: 122px;
-	font-family: 'SFProDisplay', sans-serif;
+	font-family: 'SF Pro Display', sans-serif;
 	font-weight: 700;
 /* 	padding-left: 10px; */
 }
@@ -121,7 +121,7 @@ input[type="radio"].visually-hidden {
 	position: absolute;
 	bottom: -8px;
 	right: -8px;
-	font-family: 'SFProDisplay', sans-serif;
+	font-family: 'SF Pro Display', sans-serif;
 	font-weight: 500;
 	color: #fff;
 	font-size: 10px;
@@ -150,7 +150,7 @@ input[type="radio"].visually-hidden {
 }
 
 .menu-categories__link {
-	font-family: 'SFProDisplay', sans-serif;
+	font-family: 'SF Pro Display', sans-serif;
 	font-weight: 400;
 	transition: all .3s;
 	padding: 15px 0 14px;
@@ -981,7 +981,7 @@ button.catalog__filter-btnline{
 }
 
 .aside-filter__tab{
-	font-family: 'SFProDisplay', sans-serif;
+	font-family: 'SF Pro Display', sans-serif;
 	font-weight: 200;
 	font-size: 16px;
 	line-height: 19px;
