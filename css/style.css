@@ -119,6 +119,10 @@ input[type="radio"].visually-hidden {
 	background-color: #fff;
 }
 
+.menu__mobile-linewrapper{
+	display: none;
+}
+
 .menu-mobile__list--active{
 	transform: translateX(0%);
 	transition: all .3s;
@@ -381,8 +385,8 @@ input[type="radio"].visually-hidden {
 	padding: 0 15px;
 }
 
-.baner-section_slider-img {
-	object-fit: contain;
+.banner-section_slider-img {
+	object-fit: cover;
 }
 
 
