@@ -32,6 +32,8 @@ body {
 	font-size: 20px;
 	line-height: 24px;
 	font-weight: 400;
+	overflow-x: hidden;
+	min-width: 320px;
 }
 
 .visually-hidden:not(:focus):not(:active),
@@ -86,6 +88,10 @@ input[type="radio"].visually-hidden {
 	display: flex;
 }
 
+.menu__btn{
+	display: none;
+}
+
 .header__adress {
 	margin-right: 60px;
 	width: 265px;
@@ -103,21 +109,54 @@ input[type="radio"].visually-hidden {
 	top: -10px;
 }
 
-.user-list {
+.menu-mobile__list{
+	width: 243px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+	transform: translateX(-100%);
+	transition: all .3s;
+	position: absolute;
+	z-index: 10;
+	background-color: #fff;
+}
+
+.menu-mobile__list--active{
+	transform: translateX(0%);
+	transition: all .3s;
+}
+
+.menu-mobile__item{
+	position: relative;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.menu-mobile__link{
+	display: block;
+	padding-left: 53px;
+	padding-top: 36px;
+
+}
+
+.menu-mobile__img{
+	position: absolute;
+	left: 11px;
+	bottom: 0;
+}
+
+.user-list{
 	margin-right: 15px;
 	display: flex;
 	align-items: center;
 }
 
-.user-list__item {	
+.user-list__item{	
 	padding-right: 10px;
 }
 
-.basket {
+.basket{
 	position: relative;
 }
 
-.basket__num {
+.basket__num{
 	position: absolute;
 	bottom: -8px;
 	right: -8px;
@@ -427,12 +466,11 @@ input[type="radio"].visually-hidden {
 
 
 
-.categories__item-info {
+.categories__item-info{
 	width: 50%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-
 }
 
 .categories__item-img {
@@ -1588,6 +1626,7 @@ justify-content: space-between;
 	align-items: center;
 	padding: 22px 0;
 	margin-bottom: 50px;
+	height: 70px;
 }
 
 .card__tab{
@@ -1683,7 +1722,7 @@ margin-right: 96px;
 	border: none;
 }
 
-/* 4. Адаптив с самого начала */
+
 
 /* font-family: 'Barlow', sans-serif; */
 /* font-family: 'SF Pro Display', sans-serif; */

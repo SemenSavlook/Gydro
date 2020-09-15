@@ -1,11 +1,11 @@
-$(function(){
+$(function () {
 	$('.banner-section__slider').slick({
 		dots: true,
 		prevArrow: '<button class="banner-section__slider-btn banner-section__slider-btnprev"><img src="images/arrow-left.svg" alt=""></button>',
 		nextArrow: '<button class="banner-section__slider-btn banner-section__slider-btnnext"><img src="images/arrow-right.svg" alt=""></button>',
 	});
-	
-	$('.tab').on('click', function(e) {
+
+	$('.tab').on('click', function (e) {
 		e.preventDefault();
 
 		$($(this).siblings()).removeClass('tab--active');
@@ -13,10 +13,10 @@ $(function(){
 
 		$(this).addClass('tab--active');
 		$($(this).attr('href')).addClass('tabs-content--active');
-		
+
 	});
 
-	$('.product-item__favorite').on('click', function(){
+	$('.product-item__favorite').on('click', function () {
 		$(this).toggleClass('product-item__favorite--active')
 	});
 
@@ -29,7 +29,7 @@ $(function(){
 
 	$('.filter-style').styler();
 
-	$('.filter__item-drop, .filter__extra').on('click', function(){
+	$('.filter__item-drop, .filter__extra').on('click', function () {
 		$(this).toggleClass('filter__item-drop--active');
 		$(this).next().slideToggle('200');
 	});
@@ -37,30 +37,33 @@ $(function(){
 	$(".js-range-slider").ionRangeSlider({
 		type: "Double",
 		min: 100000,
-    max: 500000,
+		max: 500000,
 	});
 
-	$('.catalog__filter-btngrid').on('click', function(){
+	$('.catalog__filter-btngrid').on('click', function () {
 		$(this).addClass('catalog__filter-button--active');
 		$('.catalog__filter-btnline').removeClass('catalog__filter-button--active');
 		$('.product-item__wrapper').removeClass('product-item__wrapper-list');
 	});
 
-	$('.catalog__filter-btnline').on('click', function(){
+	$('.catalog__filter-btnline').on('click', function () {
 		$(this).addClass('catalog__filter-button--active');
 		$('.catalog__filter-btngrid').removeClass('catalog__filter-button--active');
 		$('.product-item__wrapper').addClass('product-item__wrapper-list');
 	});
 
-	$(function () {
- 
-		$(".rate-yo").rateYo({
-			ratedFill: "#1C62CD",
-			starWidth: "23px",
-			fullStar: true,
-			spacing: '7px',
-			normalFill: "#c4c4c4"
-		});
+	$(".rate-yo").rateYo({
+		ratedFill: "#1C62CD",
+		starWidth: "23px",
+		fullStar: true,
+		spacing: '7px',
+		normalFill: "#c4c4c4"
 	});
+
+	$('.menu__btn').on('click', function(){
+		$('.menu-mobile__list').toggleClass('menu-mobile__list--active')
+	});
+
+
 
 });
