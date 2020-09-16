@@ -192,13 +192,23 @@ input[type="radio"].visually-hidden {
 	position: relative;
 }
 
-.menu-categories__link {
+.menu-categories__link{
 	font-family: 'SF Pro Display', sans-serif;
 	font-weight: 400;
 	transition: all .3s;
 	padding: 15px 0 14px;
 	position: relative;
-	
+	text-align: center;
+}
+
+.menu-categories__link::after{
+    display: block;
+    content: attr(title);
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+		font-weight: 500;
+		color: green;
 }
 
 .menu-categories__link::before {
@@ -216,7 +226,6 @@ input[type="radio"].visually-hidden {
 .menu-categories__link:hover {
 	color: #000;
 	font-weight: 500;
-	
 }
 
 .menu-categories__link:hover::before {
@@ -279,6 +288,10 @@ input[type="radio"].visually-hidden {
 	border-radius: 50%;
 	background-color: transparent;
 	cursor: pointer;
+}
+
+.slick-dots .slick-active button{
+	background-color: #fff;
 }
 
 .slick-active li button {
@@ -1726,6 +1739,17 @@ margin-right: 96px;
 	border: none;
 }
 
+.product-slider .slick-dots{
+	bottom: -30px;
+}
+
+.product-slider .slick-dots button{
+	background-color: #C4C4C4;
+}
+
+.product-slider .slick-dots .slick-active button{
+	background-color: #1C62CD;
+}
 
 
 /* font-family: 'Barlow', sans-serif; */
