@@ -1,4 +1,5 @@
-@media (max-width: 1200px){
+@media (max-width: 1200px){ /* ------------------------------------------------- */
+
 	.banner-section_slider-img {
 		min-height: 380px;
 		max-width: 600px;
@@ -9,9 +10,13 @@
 	.banner-section__slider{
 		max-width: 600px;
 	}
+
+	.categories__inner{
+		justify-content: space-around;
+	}
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1100px) { /* ------------------------------------------------- */
 
 	.menu__item + .menu__item {
 		padding-left: 20px;
@@ -23,11 +28,12 @@
 		padding-left: 30px;
 		position: relative;
 	}
+
 }
 
-@media (max-width: 968px) {
+@media (max-width: 968px){ /* ------------------------------------------------- */
 
-	.header__bottom {
+	.header__bottom{
 		display: none;
   }
 
@@ -66,15 +72,84 @@
 		padding: 14px 0px 14px 15px;
 		width: 450px;
 	}
+	.banner-section__inner{
+		margin-top: 25px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
 
+	.banner-section__slider-item{
+		text-align: center;
+	}
+
+	.banner-section__slider{
+		max-width: 100%;
+	}
+	.banner-section_slider-img {
+		max-width: 100%;
+		margin-bottom: 25px;
+	}
+	.banner-section__slider-btn{
+		display: none;
+	}
+
+	.mobile-overflow{
+		width: 730px;
+	}
+
+	.tabs-wrapper{
+		overflow-x: scroll;
+	}
 }
 
-@media (max-width: 640px) {
+@media (max-width: 640px) { /* ------------------------------------------------- */
 
 	.header__adress{
 		display: none;
 	}
 
+	.banner-section_slider-img {
+		min-height: 200px;
+
+	}
+
+	.banner-section .container{
+		padding: 0;
+	}
+
+	.search__content-btn {
+		font-size: 0;
+		line-height: 0;
+		background-color: transparent;
+		background-image: url('../images/search.svg');
+		background-repeat: no-repeat;
+		width: 24px;
+		height: 24px;
+		position: absolute;
+		right: 8px;
+		top: 13px;
+		padding: 0;
+	}
+
+	.search__content-input{
+		height: 50px;
+		padding-right: 50px;
+	}
+
+	.search__content-form{
+		position: relative;
+	}
 }
 
-/* 4. Адаптив 2 05-21*/
+@media (max-width: 440px) { /* ------------------------------------------------- */
+
+	.banner-section_slider-img {
+		min-height: 164px;
+	}
+
+	.categories__item{
+		padding: 20px 10px 16px;
+	}
+}
+
+/* 4. Адаптив 4 сначала*/
