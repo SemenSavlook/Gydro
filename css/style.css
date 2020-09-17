@@ -102,7 +102,7 @@ input[type="radio"].visually-hidden {
 .header__adress::before {
 	content: "";
 	position: absolute;
-	background-image: url(../images/adress-icon.svg);
+	background-image: url('../images/adress-icon.svg');
 	width: 30px;
 	height: 30px;
 	left: 0;
@@ -1078,7 +1078,7 @@ button.catalog__filter-btnline{
 
 .filter__item-drop::before{
 	content: "";
-	background-image: url('/images/arrow-down.svg');
+	background-image: url('../images/arrow-down.svg');
 	position: absolute;
 	left: 0;
 	bottom: 5px;
@@ -1280,7 +1280,7 @@ button.catalog__filter-btnline{
 	border: none;
 }
 .jq-selectbox__trigger {
-	background-image: url(/images/arrow-down.svg);
+	background-image: url('../images/arrow-down.svg');
 	position: absolute;
 	bottom: 5px;
 	width: 12px;
@@ -1288,7 +1288,6 @@ button.catalog__filter-btnline{
 	border-left: none;
 	top: 6px;
 	right: 9px;
-	/* transform: rotate(0deg); */
 }
 
 .jq-selectbox__select:hover, 

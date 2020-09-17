@@ -38,9 +38,30 @@ $(function () {
 				breakpoint: 1301,
 				settings: {
 					arrows: false,
-					dots: true,
+					dots: true
 				}
 			},
+			{
+				breakpoint: 1201,
+				settings: {
+					slidesToShow: 3,
+					dots: true
+				}
+			},
+			{
+				breakpoint: 870,
+				settings: {
+					slidesToShow: 2,
+					dots: true
+				}
+			},
+			{
+				breakpoint: 590,
+				settings: {
+					slidesToShow: 1,
+					dots: true
+				}
+			}
 		]
 	});
 
@@ -52,7 +73,7 @@ $(function () {
 	});
 
 	$(".js-range-slider").ionRangeSlider({
-		type: "Double",
+		type: "double",
 		min: 100000,
 		max: 500000,
 	});
@@ -81,6 +102,9 @@ $(function () {
 		$('.menu-mobile__list').toggleClass('menu-mobile__list--active')
 	});
 
-
+	$('.footer__top-title').on('click', function(){
+		$(this).next().slideToggle();
+		$(this).toggleClass('footer__topdrop--active');
+	});
 
 });
