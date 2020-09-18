@@ -52,10 +52,6 @@ input[type="radio"].visually-hidden {
 	overflow: hidden;
 }
 
-.redbg {
-	background-color: red;
-}
-
 .container {
 	max-width: 1200px;
 	padding: 0 15px;
@@ -73,7 +69,6 @@ input[type="radio"].visually-hidden {
 	min-height: 122px;
 	font-family: 'SF Pro Display', sans-serif;
 	font-weight: 700;
-/* 	padding-left: 10px; */
 }
 
 .menu__item {
@@ -308,14 +303,14 @@ input[type="radio"].visually-hidden {
 	justify-content: space-between;
 }
 
-.sale-item__top {
+.sale-item__top{
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
 
 }
 
-.sale-item__info {
+.sale-item__info{
 	color: #fff;
 	background-color: #1C62CD;
 	padding: 8px 20px;
@@ -325,16 +320,20 @@ input[type="radio"].visually-hidden {
 	letter-spacing: 0.1em;
 }
 
-.sale-item__price {
+.sale-item__price{
 	text-align: right;
 }
 
-.price { 
+.price{ 
 	font-family: 'Barlow', sans-serif;
 	position: relative;
 }
 
-.sale-item__price-new {
+.aside__btn{
+	display: none;
+}
+
+.sale-item__price-new{
 	font-weight: 700;
 	font-size: 27px;
 	line-height: 32px;
@@ -344,7 +343,7 @@ input[type="radio"].visually-hidden {
 	position: relative;
 }
 
-.sale-item__price-new::after {
+.sale-item__price-new::after{
 	content: "";
 	background-image: url('../images/icons-price.svg');
 	position: absolute;
@@ -1748,6 +1747,10 @@ margin-right: 96px;
 
 .product-slider .slick-dots .slick-active button{
 	background-color: #1C62CD;
+}
+
+.product-card__btn-mobile{
+	display: none;
 }
 
 
