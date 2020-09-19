@@ -349,6 +349,10 @@
 		transform: rotate(180deg);
 	}
 
+	.footer__topdrop{
+		pointer-events: auto;
+}
+
 }
 
 @media (max-width: 440px) { /* ------------------------------------------------- */
@@ -366,6 +370,3 @@
 	}
 
 }
-
-
-/* Финал смотреть санчала */
