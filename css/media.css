@@ -12,7 +12,7 @@
 		max-width: 600px;
 	}
 	.banner-section__inner{
-		justify-content: space-around;
+		justify-content: space-evenly;
 	}
 	.banner-section__slider{
 		max-width: 600px;
@@ -32,6 +32,24 @@
 
 }
 
+@media (max-width: 1160px){
+
+	.catalog__inner-list {
+   justify-content: space-evenly;
+	}
+
+	.catalog__inner-list .product-item__wrapper{
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+}
+
+@media (max-width: 1150px){
+	.catalog__inner-list .product-item__wrapper{
+		margin-right: 0px;
+	}
+}
+
 @media (max-width: 1100px) { /* ------------------------------------------------- */
 
 	.menu__item + .menu__item {
@@ -45,7 +63,9 @@
 		position: relative;
 	}
 
-
+	.categories__inner {
+		justify-content: space-evenly;
+}
 
 }
 
@@ -84,11 +104,13 @@
 		font-family: 'SF Pro Display', sans-serif;
 		background: #F0F0F4;
 		overflow-x: scroll;
+		margin-bottom: 20px;
 	}
 	
 	.menu__mobile-line{
-		padding: 14px 0px 14px 15px;
-		width: 450px;
+		padding: 14px 14px 14px 15px;
+    width: 100%;
+    text-align: center;
 	}
 	.banner-section__inner{
 		margin-top: 25px;
@@ -112,7 +134,12 @@
 	}
 
 	.mobile-overflow{
-		width: 850px;
+		width: 820px;
+	}
+
+	.mobile-overflow--top{
+		width: 720px;
+		overflow-x: scroll;
 	}
 
 	.catalog__filter-itemsinner, 
@@ -144,6 +171,10 @@
 
 	.product-card__img-box {
 		width: 100%;
+	}
+
+	.breadcrumbs {
+    margin-bottom: 20px;
 	}
 }
 
@@ -194,7 +225,15 @@
 
 @media (max-width: 640px) { /* ------------------------------------------------- */
 
-	.header__adress{
+	/* .header__adress{
+		display: none;
+	} */
+
+	.logo__img--small{
+		display: inline;
+	}
+
+	.logo__img{
 		display: none;
 	}
 
@@ -272,8 +311,15 @@
 		width: 100%;
 	}
 
-
 }
+
+@media (max-width: 640px) { /* ------------------------------------------------- */
+
+	.header__adress{
+		display: none;
+	}
+}
+
 
 @media (max-width: 540px) { /* ------------------------------------------------- */
 
@@ -369,4 +415,19 @@
 		margin: 0;
 	}
 
+	.user-list {
+		margin-right: 0;
+	}
+
+}
+
+@media (max-width: 400px){
+	.menu__mobile-line{
+		padding: 14px 0px 14px 15px;
+		width: 410px;
+	}
+	
+	.menu__mobile-line {
+		text-align: left;
+	}
 }
