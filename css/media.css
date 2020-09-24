@@ -186,8 +186,9 @@
 	
 /*----*/
 	.search__tabs.tabs-wrapper{
-		width: 720px;
-		background-color: gray;
+		width: 820px;
+		background-color: blue;
+		overflow-x: scroll;
 /*----*/
 }
 
