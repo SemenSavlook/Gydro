@@ -115,8 +115,8 @@
 	
 	.menu__mobile-line{
 		padding: 14px 14px 14px 15px;
-    width: 100%;
-    text-align: center;
+    		width: 100%;
+		text-align: center;
 	}
 	.banner-section__inner{
 		margin-top: 25px;
@@ -141,11 +141,6 @@
 
 	.mobile-overflow{
 		width: auto;
-	}
-
-	.mobile-overflow--top{
-		width: 720px;
-		overflow-x: scroll;
 	}
 
 	.catalog__filter-itemsinner, 
@@ -181,8 +176,20 @@
 	}
 
 	.breadcrumbs{
-    margin-bottom: 20px;
+    		margin-bottom: 20px;
 	}
+	
+	.mobile-overflow--top{
+		overflow-x: scroll;
+		display: block;
+	}
+	
+/*----*/
+	.search__tabs.tabs-wrapper{
+		width: 820px;
+		background-color: blue;
+		overflow-x: scroll;
+/*----*/
 }
 
 @media (max-width: 940px){ /* ------------------------------------------------- */
