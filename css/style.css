@@ -194,6 +194,11 @@ input[type="radio"].visually-hidden{
 	bottom: 8px;
 }
 
+.menu-mobile__img--sizes{
+	width: 24px;
+	height: 24px;
+}
+
 .user-list{
 	margin-right: 15px;
 	display: flex;
@@ -482,9 +487,9 @@ input[type="radio"].visually-hidden{
 	display: block;
 }
 
-.tabs-content.products__content span, 
 .temp-bg{
 	background-color: #faffb1;
+	padding: 5px;
 }
 
 
