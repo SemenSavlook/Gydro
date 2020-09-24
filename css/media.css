@@ -115,8 +115,8 @@
 	
 	.menu__mobile-line{
 		padding: 14px 14px 14px 15px;
-    width: 100%;
-    text-align: center;
+    		width: 100%;
+		text-align: center;
 	}
 	.banner-section__inner{
 		margin-top: 25px;
@@ -144,7 +144,6 @@
 	}
 
 	.mobile-overflow--top{
-		width: 720px;
 		overflow-x: scroll;
 		display: block;
 	}
@@ -184,6 +183,11 @@
 	.breadcrumbs{
     margin-bottom: 20px;
 	}
+	
+/*----*/
+	.search__tabs.tabs-wrapper{
+		width: 720px;
+/*----*/
 }
 
 @media (max-width: 940px){ /* ------------------------------------------------- */
