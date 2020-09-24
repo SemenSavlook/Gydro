@@ -143,11 +143,6 @@
 		width: 820px;
 	}
 
-	.mobile-overflow--top{
-		overflow-x: scroll;
-		display: block;
-	}
-
 	.catalog__filter-itemsinner, 
 	.tabs-wrapper, 
 	.breadcrumbs__inner{
@@ -181,12 +176,18 @@
 	}
 
 	.breadcrumbs{
-    margin-bottom: 20px;
+    		margin-bottom: 20px;
+	}
+	
+	.mobile-overflow--top{
+		overflow-x: scroll;
+		display: block;
 	}
 	
 /*----*/
 	.search__tabs.tabs-wrapper{
 		width: 720px;
+		background-color: gray;
 /*----*/
 }
 
