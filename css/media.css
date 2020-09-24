@@ -146,7 +146,8 @@
 	.mobile-overflow--top{
 		width: 720px;
 		overflow-x: scroll;
-		display: block;
+		display: flex;
+		flex-wrap: nowrap;
 	}
 
 	.catalog__filter-itemsinner, 
