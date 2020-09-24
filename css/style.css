@@ -482,6 +482,11 @@ input[type="radio"].visually-hidden{
 	display: block;
 }
 
+.tabs-content.products__content span{
+	background-color: #faffb1;
+}
+
+
 .search__content-form{
 	display: flex;
 }

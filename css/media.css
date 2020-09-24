@@ -140,13 +140,15 @@
 	}
 
 	.mobile-overflow{
-		width: 820px;
-		display: block;
+		width: 960px;
+		display: flex;
+		overflow-x: scroll;
+		justify-content: flex-start;
 	}
 
 	.mobile-overflow--top{
 		display: flex;
-		width: 820px;
+		width: 780px;
 		overflow-x: scroll;
 		font-size: 18px;
 		justify-content: flex-start;
