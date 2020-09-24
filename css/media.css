@@ -140,13 +140,12 @@
 	}
 
 	.mobile-overflow{
-		width: 820px;
+		width: auto;
 	}
 
 	.mobile-overflow--top{
 		width: 720px;
 		overflow-x: scroll;
-		display: block;
 	}
 
 	.catalog__filter-itemsinner, 
