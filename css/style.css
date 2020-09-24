@@ -462,6 +462,7 @@ input[type="radio"].visually-hidden{
 
 .sale-item__img{
 	object-fit: contain;
+	max-height: 144px;
 }
 
 .search__tabs{
@@ -492,6 +493,9 @@ input[type="radio"].visually-hidden{
 	padding: 5px;
 }
 
+#filter-2{
+	margin-top: 40px;
+}
 
 .search__content-form{
 	display: flex;
