@@ -146,14 +146,12 @@
 
 	.mobile-overflow--top{
 		display: flex;
-		width: 720px;
+		width: 820px;
 		overflow-x: scroll;
+		font-size: 18px;
+		justify-content: flex-start;
 	}	
 	
-	.mobile-overflow--top a{
-		display: block;
-	}
-
 	.catalog__filter-itemsinner, 
 	.tabs-wrapper, 
 	.breadcrumbs__inner{
