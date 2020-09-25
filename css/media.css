@@ -494,6 +494,15 @@
 		margin-bottom: 25px;
 	}
 
+	.search__tabs-item {
+		padding: 11px 15px 12px;
+		font-size: 16px;
+	}
+
+	.products__tab + .products__tab {
+		margin-left: 35px;
+	}
+
 }
 
 @media (max-width: 330px){ /* ------------------------------------------------- */
@@ -501,5 +510,17 @@
 		margin-left: 0;
 		width: 100%;
 		margin-top: 5px;
+	}
+
+	.products__tab + .products__tab {
+		margin-left: 25px;
+	}
+
+	.search__tabs-item {
+		padding: 11px 25px 12px;
+	}
+
+	.mobile-overflow{
+		width: 750px;
 	}
 }

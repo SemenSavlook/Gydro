@@ -294,6 +294,7 @@ input[type="radio"].visually-hidden{
 
 .banner-section__slider{
 	max-width: 870px;
+	max-height: 400px;
 }
 
 .banner-section__slider-btn,
@@ -315,6 +316,10 @@ input[type="radio"].visually-hidden{
 
 .banner-section__slider-btnnext{
 	right: 20px;
+}
+
+.banner-section_slider-img{
+	object-fit: cover;
 }
 
 .slick-dots{
@@ -353,6 +358,7 @@ input[type="radio"].visually-hidden{
 
 .sale-item{
 	max-width: 265px;
+	max-height: 400px;
 	text-align: center;
 	border: 1px solid #CDCDCD;
 	border-radius: 3px;
@@ -454,11 +460,6 @@ input[type="radio"].visually-hidden{
 	margin-bottom: 7px;
 	padding: 0 15px;
 }
-
-.banner-section_slider-img{
-	object-fit: cover;
-}
-
 
 .sale-item__img{
 	object-fit: contain;
@@ -1517,6 +1518,7 @@ justify-content: space-between;
 	position: relative;
 	display: inline-block;
 	margin-bottom: 10px;
+	cursor: pointer;
 }
 
 .filter__extra::after{
