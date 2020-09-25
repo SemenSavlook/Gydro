@@ -266,6 +266,21 @@
 		width: 770px;
 	}
 
+	.page-section{
+		margin-bottom: 60px;
+	}
+
+	.sale-item{
+		margin-top: 25px;
+	}
+
+}
+
+@media (max-width: 880px){
+
+	.sale-item{
+		margin-top: 10px;
+	}
 }
 
 
@@ -358,7 +373,11 @@
 	}
 
 	.products__tab + .products__tab{
-		margin-left: 40px
+		margin-left: 30px
+	}
+
+	.sale-item{
+		margin-top: 0;
 	}
 
 }
@@ -501,6 +520,12 @@
 
 	.products__tab + .products__tab {
 		margin-left: 35px;
+	}
+
+}
+@media (max-width: 340px){
+	.products__tab + .products__tab {
+			margin-left: 28px;
 	}
 
 }
